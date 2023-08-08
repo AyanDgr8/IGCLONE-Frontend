@@ -40,9 +40,13 @@ function NewPostForm({ onUpdate }) {
     formData.append("imageUrl", PostImage);
 
     try {
-      await axios.post(`${process.env.REACT_APP_INSTACLONE_BACKEND_URL}/add-post`, formData, {
+      const response = await axios.post(
+        `${process.env.REACT_APP_INSTACLONE_BACKEND_URL}/add-post`, 
+        formData, 
+        {
         headers: { "Content-Type": "multipart/form-data" },
-      });
+      }
+    );
 
       // // Update the local state with the new post data
       // const newPost = {
@@ -57,6 +61,7 @@ function NewPostForm({ onUpdate }) {
       onUpdate(); // Call the update function to trigger an update
       navigate('/post');
     } catch (error) {
+      console.error("Axios error:", error);
       alert('Failed to upload image');
     }
   };
