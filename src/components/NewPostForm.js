@@ -40,7 +40,7 @@ function NewPostForm({ onUpdate }) {
     formData.append("image", PostImage);
 
     try {
-      await axios.post("${process.env.INSTACLONE_BACKEND_URL}/add-post", formData, {
+      await axios.post("${process.env.REACT_APP_INSTACLONE_BACKEND_URL}/add-post", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 

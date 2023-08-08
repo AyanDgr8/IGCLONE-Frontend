@@ -45,7 +45,7 @@ useEffect(() => {
             </div>
           </div>
           <div className="middle">
-            <img  src={`${process.env.INSTACLONE_BACKEND_URL}/${post.PostImage}`} height="auto"alt="Post_pictures" />
+            <img  src={`${process.env.REACT_APP_INSTACLONE_BACKEND_URL}/${post.PostImage}`} height="auto"alt="Post_pictures" />
           </div>
           <div className="bottom">
             <div className="post-footer">
