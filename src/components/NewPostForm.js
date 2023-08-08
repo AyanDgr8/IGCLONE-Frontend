@@ -37,7 +37,7 @@ function NewPostForm({ onUpdate }) {
     formData.append("location", location);
     formData.append("likes", likes);
     formData.append("description", description);
-    formData.append("image", PostImage);
+    formData.append("imageUrl", PostImage);
 
     try {
       await axios.post(`${process.env.REACT_APP_INSTACLONE_BACKEND_URL}/add-post`, formData, {
