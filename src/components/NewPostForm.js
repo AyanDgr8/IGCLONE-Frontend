@@ -44,15 +44,15 @@ function NewPostForm({ onUpdate }) {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
-      // Update the local state with the new post data
-      const newPost = {
-        name,
-        location,
-        likes,
-        description,
-        PostImage: PostImage.name,
-        date: new Date(),
-      };
+      // // Update the local state with the new post data
+      // const newPost = {
+      //   name,
+      //   location,
+      //   likes,
+      //   description,
+      //   PostImage: PostImage.name,
+      //   date: new Date(),
+      // };
       alert('Image Uploaded Successfully');
       onUpdate(); // Call the update function to trigger an update
       navigate('/post');

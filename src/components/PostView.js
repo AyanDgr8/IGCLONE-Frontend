@@ -5,12 +5,12 @@ import './styles/PostView.css'
 import heart from "./images/heart@2x.png";
 import share from "./images/share@2x.png";
 import more_icon from "./images/more_icon.svg";
-import NavigationBar from "./NavigationBar";
+
 import axios from 'axios'; 
 // import sampleData from '../sampleData';
 // import PostCard from './PostCard';
 // import NewPostForm from './NewPostForm';
-
+// import NavigationBar from "./NavigationBar";
 
 const Postview = ({ updateFlag }) => {
   const [view, setView] = useState([]);
