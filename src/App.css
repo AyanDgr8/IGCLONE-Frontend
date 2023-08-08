@@ -1,0 +1,20 @@
+/* App.css */
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Center the logo and text vertically */
+.d-flex.align-items-center {
+  height: 100%;
+}
