@@ -16,7 +16,7 @@ const Postview = ({ updateFlag }) => {
   const [view, setView] = useState([]);
   const fetchPosts = () => {
     // Fetch data from your backend API endpoint
-    axios.get("${process.env.INSTACLONE_BACKEND_URL}/posts")
+    axios.get(`${process.env.INSTACLONE_BACKEND_URL}/posts`)
     // https://igclone-q3xt.onrender.com/
     .then(response => {
       setView(response.data);
