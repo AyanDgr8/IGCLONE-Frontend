@@ -1,0 +1,28 @@
+
+
+img{
+    width: 40vw;
+    height: 90vh;
+    }
+    #loadingMain{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 30px;
+        flex-wrap: wrap;
+        border-left: 10px;
+    }
+    #tenxheading{
+     position: relative;
+     left: 20px;
+    }
+    #enter{
+        width: 4rem;
+        height: 2rem;
+        background-color: greenyellow;
+        border-radius: 5px;
+        bottom: 250px;
+    }
