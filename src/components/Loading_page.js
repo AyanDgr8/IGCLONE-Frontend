@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import loadingImg from "../insta/images/lens-1418954@2x.png"
+import loadingImg from "../components/images/lens-1418954@2x.png"
 import './loading_page.css'
 export default function Loading_page(){
     return <div>

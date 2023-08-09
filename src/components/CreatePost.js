@@ -42,7 +42,7 @@ export default function CreatePost(){
         e.preventDefault();
         console.log("Submitting data:", data);
       
-        fetch("https://instagram-backend-6ykv.onrender.com/createPost", {
+        fetch(`${process.env.INSTACLONE_BACKEND_URL}/createPost`, {
           method: "POST",
           body: formData
         })
