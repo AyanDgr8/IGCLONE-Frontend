@@ -1,4 +1,4 @@
-// components/NewPostForm.js
+// src/components/NewPostForm.js
 
 import React, { useState, useRef } from "react";
 import "./styles/NewPostForm.css";

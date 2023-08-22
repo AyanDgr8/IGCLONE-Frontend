@@ -1,4 +1,4 @@
-// components/NavigationBar.js
+// src/components/NavigationBar.js
 import React from 'react';
 import icon from "./images/icon.svg";
 import Camera from "./images/camera@2x.png";

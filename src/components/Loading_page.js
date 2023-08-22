@@ -1,3 +1,5 @@
+// src/components/Loading_page.js
+
 import { Link } from "react-router-dom";
 import loadingImg from "../components/images/lens-1418954@2x.png"
 import './loading_page.css'

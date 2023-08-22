@@ -1,3 +1,5 @@
+// src/components/CreatePost.js
+
 import { useState } from "react"
 
 import './input.css'
